@@ -6,7 +6,7 @@
 #     𝗠𝗨𝗟𝗧𝗜𝗗𝗘𝗩𝗜𝗖𝗘 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗨𝗦𝗘𝗥 𝗕𝗢𝗧        #
 #=============================================#
 # 
-#    * @project_name : EX-RADIATION 
+#    * @project_name : Suhail-Md
 #    * @author : @SuhailTechInfo
 #    * @youtube : https://www.youtube.com/SuhailTechInfo
 #    * @description : Suhail-Md ,A Multi-functional whatsapp bot md.
@@ -15,8 +15,8 @@
 
  
 
-FROM quay.io/Kingdragony/GREAT-EMPEROR
-RUN git clone https://github.com/Kingdragony/GREAT-EMPEROR /root/luv
+FROM quay.io/suhailtechinfo/suhail-v2
+RUN git clone https://github.com/SuhailTechInfo/suhail-whatsapp-bot /root/luv
 # RUN rm -rf /root/luv/.git
 WORKDIR /root/luv
 RUN npm install || yarn install
@@ -1276,4 +1276,3 @@ CMD ["npm","start" ]
 #       web: Suhail_Md
 # run:
 #   web: npm start
- 
